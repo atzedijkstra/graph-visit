@@ -1,5 +1,5 @@
 Name:				graph-visit
-Version:			0.1
+Version:			0.1.0.1
 cabal-version:      >= 1.6
 License:			BSD3
 license-file:		LICENSE
