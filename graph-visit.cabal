@@ -17,7 +17,12 @@ source-repository head
   location:    git://github.com/atzedijkstra/graph-visit.git
 
 library
-  Build-Depends:		base, data-lens, data-lens-template, mtl, containers
+  Build-Depends:
+    base >= 4 && < 5,
+    data-lens >= 2 && < 3,
+    data-lens-template >= 2 && < 3,
+    mtl >= 2 && < 3,
+    containers >= 0.4 && < 0.5
   Exposed-Modules:		Data.Graph.GraphVisit
   Ghc-Options:		
   HS-Source-Dirs:     	src

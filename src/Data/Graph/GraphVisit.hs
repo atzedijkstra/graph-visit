@@ -2,8 +2,10 @@
 
 ------------------------------------------------------------------------------
 -- | This module provides a graph visiting abstraction
-module Data.GraphVisit
-  ( graphVisitM
+module Data.Graph.GraphVisit
+  ( 
+    -- * Graph visiting
+    graphVisitM
   , graphVisit
   )
   where
